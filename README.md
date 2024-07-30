@@ -37,7 +37,7 @@ docker build -t shubham9624/ollama .
 To deploy the application to your Kubernetes Minikube cluster, use the provided YAML configuration files:
 ```sh
 kubectl apply -f deploy.yml
-kubectl apply -f pc.yml
+kubectl apply -f pvc.yml
 kubectl apply -f service.yml
 kubectl apply -f ingress.yml
 ```
