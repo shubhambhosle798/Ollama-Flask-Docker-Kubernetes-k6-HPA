@@ -91,5 +91,4 @@ The application uses Kubernetes HPA to automatically scale the number of replica
 
 
 
-Contributions are welcome!
-Thankyou!
+### Contributions are welcome! Thankyou :)
