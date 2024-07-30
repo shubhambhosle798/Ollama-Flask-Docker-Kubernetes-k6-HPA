@@ -36,15 +36,16 @@ docker build -t shubham9624/ollama .
 ### Deploying to Kubernetes
 To deploy the application to your Kubernetes Minikube cluster, use the provided YAML configuration files:
 ```sh
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl apply -f ingress.yaml
+kubectl apply -f deploy.yml
+kubectl apply -f pc.yml
+kubectl apply -f service.yml
+kubectl apply -f ingress.yml
 ```
 
 ### Setting Up HPA
 Configure the Horizontal Pod Autoscaler using the provided HPA YAML file:
 ```sh
-kubectl apply -f hpa.yaml
+kubectl apply -f hpa.yml
 ```
 
 ### API Endpoints
