@@ -60,15 +60,17 @@ kubectl apply -f hpa.yaml
 - Generates text based on a provided prompt.
 - URL: http://<external-ip>:30002/generate
 - Request Body:
-- ```sh
+```sh
   {
   "prompt": "Test prompt"
-  } 
+  }
+```
 - Response:
-- ```
+```
   {
   "response": "Generated text based on the prompt"
   }
+```
 ### Testing Methodology
 #### Load Testing
 Load testing was performed using k6 to simulate user traffic and measure the API's performance under stress.
