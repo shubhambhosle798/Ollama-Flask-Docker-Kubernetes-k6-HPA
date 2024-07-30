@@ -69,7 +69,6 @@ kubectl apply -f hpa.yaml
   {
   "response": "Generated text based on the prompt"
   }
-
 ### Testing Methodology
 #### Load Testing
 Load testing was performed using k6 to simulate user traffic and measure the API's performance under stress.
