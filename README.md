@@ -51,12 +51,12 @@ kubectl apply -f hpa.yml
 ### API Endpoints
 #### GET /
 - Returns a welcome message.
-- URL: http://<external-ip>:30002/
+- URL: http://192.168.49.2:30002/
 - Response: 'Welcome to the Ollama Text Generation API'
 
 #### POST /generate
 - Generates text based on a provided prompt.
-- URL: http://<external-ip>:30002/generate
+- URL: http://192.168.49.2:30002/generate
 - Request Body:
 ```sh
   {
