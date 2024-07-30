@@ -16,17 +16,14 @@ This project provides a text generation API using Flask, Docker, and Kubernetes.
   - [Results](#results)
 - [Autoscaling](#autoscaling)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 - Docker
-- Kubernetes cluster (e.g., Minikube, GKE, EKS)
+- Minikube Kubernetes cluster
 - k6 for load testing
-- kubectl command-line tool
-- Python 3.x
+- Python
 - Flask library
-- ollama library (or any custom libraries required by your application)
+- ollama library
 
 ## Setup
 
